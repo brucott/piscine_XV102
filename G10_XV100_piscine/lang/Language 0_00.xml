@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<languageData Version="galileoNG">
+	<texts>
+		<standard Guid="371ce933-d18a-4e21-966e-5044ca5f2900" textID="0"><![CDATA[TEST]]></standard>
+		<standard Guid="9d4f38ca-74fe-4824-9200-d8bf12f41e7e" textID="1"><![CDATA[eau]]></standard>
+		<standard Guid="2f26d04c-5cd1-4056-8978-2232ef97be10" textID="2"><![CDATA[air]]></standard>
+		<standard Guid="75d8889d-519e-4cc0-a04e-9ad3df92d582" textID="3"><![CDATA[C°]]></standard>
+		<standard Guid="67269732-895f-46df-a156-bcd9c5724ae3" textID="4"><![CDATA[Piscine]]></standard>
+		<standard Guid="576ad0e9-c27b-4fab-88b0-31c508266c75" textID="5"><![CDATA[Alarms]]></standard>
+		<standard Guid="57a654a6-5242-4430-a517-48066c2213cd" textID="6"><![CDATA[Control]]></standard>
+		<standard Guid="f63b7bb4-b95a-4588-bbdd-6a4ef6028c48" textID="7"><![CDATA[Temperatures]]></standard>
+		<standard Guid="ad138163-39af-48bb-a5ab-1c6c925cb8bd" textID="8"><![CDATA[Graphiques]]></standard>
+		<standard Guid="b2eb1137-d560-4c66-8619-b4e51f55154b" textID="9"><![CDATA[Graphics]]></standard>
+		<standard Guid="7ee1d74f-1af7-4572-87b1-9dcb16c08747" textID="10"><![CDATA[Temp. eau]]></standard>
+		<standard Guid="35028c23-b1e8-4730-b294-65bfe058e83e" textID="11"><![CDATA[Pompe]]></standard>
+		<standard Guid="9909281b-99e4-4e7f-bc66-9520ee8724ba" textID="12"><![CDATA[EAU]]></standard>
+		<standard Guid="de4d4b9c-02cb-4a05-ac62-7c4e658bde48" textID="13"><![CDATA[AIR]]></standard>
+	</texts>
+</languageData>

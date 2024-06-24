@@ -1,0 +1,27 @@
+<SubScreen Guid="d089d4b7-cbb9-4f86-9460-d58adb10f389" Res="[320 20]" ScreenColor="[255 0 0 0]" ActiveSet="7459b2e1-7156-4864-bca0-a71b69cc6cb8" Name="Foot" No="0" Version="[10.6.0]" DefaultResizeMode="0" DefaultAlignmentForUniformStretch="1">
+  <Checksum Value="585701841" />
+  <TimeDate Guid="a3491587-ad94-47d8-b837-39b3d1ae936c" LockedPosition="0" ControlSet="7459b2e1-7156-4864-bca0-a71b69cc6cb8" Name="" Anchor="5" FrameStyle="2" DateTimeFomat="DD.MM.YY" X_PropType="0" X_Value="10" Y_PropType="0" Y_Value="0" Width_PropType="0" Width_Value="70" Height_PropType="0" Height_Value="20">
+    <State Guid="4a64d335-ac81-4da5-ad39-42afaa67dcd6" Name="Text" Version="[1.1.0]">
+      <ColorDecorator Guid="271669d1-4e6a-4dcf-ac75-7e504291732c" ID="0" Color="[0 255 255 255]" Blink="0" BlinkColor="[255 211 211 211]" />
+      <TextDecorator Guid="4d60c511-5ad8-4e73-ac56-bfa4b91ff77d" ID="1" Font="[0,12,1]" Color="[255 255 255 255]" Blink="0" AlignH="0" AlignV="1" Rotation="0" WordBreak="0" MainData_PropType="0" MainData_DynMapList="" Margins="[0px, 0px, 0px, 0px]" />
+    </State>
+  </TimeDate>
+  <TimeDate Guid="ed4100cb-4e83-4e44-b20f-fb3d2717d0f1" LockedPosition="0" ControlSet="7459b2e1-7156-4864-bca0-a71b69cc6cb8" Name="" Anchor="5" FrameStyle="2" DateTimeFomat="hh:mm:ss" X_PropType="0" X_Value="250" Y_PropType="0" Y_Value="0" Width_PropType="0" Width_Value="60" Height_PropType="0" Height_Value="20">
+    <State Guid="fa92a097-49f9-454a-9a46-0905303c6232" Name="Text" Version="[1.1.0]">
+      <ColorDecorator Guid="9efd7e2b-234e-477c-a403-d9d141a734c7" ID="0" Color="[0 255 255 255]" Blink="0" BlinkColor="[255 211 211 211]" />
+      <TextDecorator Guid="17a3f87e-a460-4fe6-afae-dd328ee0eb6d" ID="1" Font="[0,12,1]" Color="[255 255 255 255]" Blink="0" AlignH="2" AlignV="1" Rotation="0" WordBreak="0" MainData_PropType="0" MainData_DynMapList="" Margins="[0px, 0px, 0px, 0px]" />
+    </State>
+  </TimeDate>
+  <ScreenChange Guid="304e984b-3db7-4518-8e28-465c8bb45d28" LockedPosition="0" ControlSet="7459b2e1-7156-4864-bca0-a71b69cc6cb8" Name="" Anchor="5" Click="0" FrameStyle="2" Animation="0" X_PropType="0" X_Value="80" Y_PropType="0" Y_Value="0" Width_PropType="0" Width_Value="160" Height_PropType="0" Height_Value="20" TargetScreenData_PropType="0" TargetScreenData_Value="57eeef76-b65d-4bef-a27a-5d097c8a72aa">
+    <State Guid="f8e550b7-98e6-4a41-9643-e30b890c7921" Name="On" Version="[1.1.0]">
+      <ColorDecorator Guid="7d4ff289-6a2c-4762-9834-cda568a4b91e" ID="0" Color="[0 255 255 255]" Blink="0" BlinkColor="[255 211 211 211]" />
+      <IconImageDecorator Guid="f30e698d-8d2a-4d44-ad98-e1fe50df46c9" ID="1" Stretched="2" Blink="0" Rotation="0" Flip="0" Align="4" RepeatCount="0" TriggerTagLogic="0" InterruptionType="1" MainData_PropType="0" MainData_Value="770b8551-96ec-462d-8133-23cf0de76cea" TriggerData_PropType="1" Margins="[0px, 0px, 0px, 0px]" />
+    </State>
+    <State Guid="1ed67898-3ee9-4bad-a105-47516da459c0" Name="Off" Version="[1.1.0]">
+      <ColorDecorator Guid="2dffaec8-39c5-46e4-a019-f60e2e5f60b7" ID="0" Color="[0 255 255 255]" Blink="0" BlinkColor="[255 211 211 211]" />
+      <IconImageDecorator Guid="da040345-235d-4e79-8815-3e37a43333a4" ID="1" Stretched="2" Blink="0" Rotation="0" Flip="0" Align="4" RepeatCount="0" TriggerTagLogic="0" InterruptionType="1" MainData_PropType="0" MainData_Value="770b8551-96ec-462d-8133-23cf0de76cea" TriggerData_PropType="1" Margins="[3px, 0px, 3px, 0px]" />
+    </State>
+  </ScreenChange>
+  <ControlSet Guid="7459b2e1-7156-4864-bca0-a71b69cc6cb8" Name="ControlSet" />
+  <SSPC Guid="c2e05a29-8941-4357-b1f2-404f6efb2adb" />
+</SubScreen>

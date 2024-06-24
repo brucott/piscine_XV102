@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Symbolconfiguration xmlns="http://www.3s-software.com/schemas/Symbolconfiguration.xsd">
+  <Header>
+    <Version>3.5.14.0</Version>
+    <SymbolConfigObject version="4.4.0.0" runtimeid="3.5.19.30" libversion="4.4.0.0" compiler="3.5.19.30" lmm="3.5.19.30" profile="XSOFT-CODESYS V3.5.19+" settings="SupportOPCUA, XmlIncludeComments, LayoutCalculator=OptimizedClientSideLayoutCalculator" />
+    <ProjectInfo name="C3_XV100_piscine" devicename="Device" appname="Application" />
+  </Header>
+  <TypeList>
+    <TypeSimple name="T_BIT_X_0" size="1" swapsize="0" typeclass="Bool" iecname="BIT" bitoffset="0" />
+    <TypeSimple name="T_BOOL" size="1" swapsize="0" typeclass="Bool" iecname="BOOL" />
+    <TypeSimple name="T_INT" size="2" swapsize="2" typeclass="Int" iecname="INT" />
+    <TypeSimple name="T_REAL" size="4" swapsize="4" typeclass="Real" iecname="REAL" />
+  </TypeList>
+  <NodeList>
+    <Node name="Application">
+      <Node name="GVLvisu">
+        <Node name="iDebutHivernage" type="T_INT" access="ReadWrite">
+          <Comment> Novembre</Comment>
+        </Node>
+        <Node name="iFinHivernage" type="T_INT" access="ReadWrite">
+          <Comment> Mars</Comment>
+        </Node>
+        <Node name="iHorsGelTempBasse" type="T_INT" access="ReadWrite">
+          <Comment> 0,5 C°</Comment>
+        </Node>
+        <Node name="iHorsGelTempHaute" type="T_INT" access="ReadWrite">
+          <Comment> 1,5 C°</Comment>
+        </Node>
+        <Node name="rTempEauPompe" type="T_REAL" access="ReadWrite" />
+        <Node name="wReserve05" type="T_INT" access="Read" directaddress="%IW10">
+          <Comment> Reserve</Comment>
+        </Node>
+        <Node name="wReserve06" type="T_INT" access="Read" directaddress="%IW12">
+          <Comment> Reserve</Comment>
+        </Node>
+        <Node name="wReserve07" type="T_INT" access="Read" directaddress="%IW14">
+          <Comment> Reserve</Comment>
+        </Node>
+        <Node name="wReserve08" type="T_INT" access="Read" directaddress="%IW16">
+          <Comment> Reserve</Comment>
+        </Node>
+        <Node name="wTempAirTerrasse" type="T_INT" access="Read" directaddress="%IW6">
+          <Comment> Temperature d'air cote terrasse</Comment>
+        </Node>
+        <Node name="wTempEauPompe" type="T_INT" access="Read" directaddress="%IW2">
+          <Comment> Temperature de l'eau à l'entree de la pompe</Comment>
+        </Node>
+        <Node name="xMarcheManuEclairage" type="T_BOOL" access="ReadWrite" />
+        <Node name="xMarcheManuPompe" type="T_BOOL" access="ReadWrite" />
+        <Node name="xMarchePompe" type="T_BOOL" access="ReadWrite" />
+        <Node name="xMarchePompeHivernage" type="T_BOOL" access="ReadWrite" />
+        <Node name="xSortiePompe" type="T_BIT_X_0" access="ReadWrite" directaddress="%QX2.0">
+          <Comment> Sortie relais de commande pompe</Comment>
+        </Node>
+        <Node name="xTempEauInfZero" type="T_BOOL" access="ReadWrite">
+          <Comment> === VARIABLES === </Comment>
+        </Node>
+      </Node>
+    </Node>
+  </NodeList>
+</Symbolconfiguration>
