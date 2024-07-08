@@ -1,0 +1,7 @@
+[HKEY_LOCAL_MACHINE\Services\TIMESVC]
+"server"=multi_sz:"192.168.0.254","pool.ntp.org","time.windows.com"
+"AutoUpdate"=dword:1
+"ServerRole"=dword:0
+"refresh"=dword:927C0
+"recoveryrefresh"=dword:57E40
+"threshold"=dword:5265C00
