@@ -45,7 +45,6 @@
         <Node name="wTempEauPompe" type="T_INT" access="Read" directaddress="%IW2">
           <Comment> Temperature de l'eau à l'entree de la pompe</Comment>
         </Node>
-        <Node name="xMarcheManuEclairage" type="T_BOOL" access="ReadWrite" />
         <Node name="xMarcheManuPompe" type="T_BOOL" access="ReadWrite" />
         <Node name="xMarchePompe" type="T_BOOL" access="ReadWrite" />
         <Node name="xMarchePompeHivernage" type="T_BOOL" access="ReadWrite" />

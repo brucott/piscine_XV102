@@ -82,8 +82,8 @@ REM ************************************************
 REM
 REM ************************************************
 REM activation of SNTP client
-IF exist \%bootdev%\sntp.reg CALL regedit.exe "\%bootdev%\sntp.reg" "/Q"
-services.exe refresh NTP0:
+REM IF exist \%bootdev%\sntp.reg CALL regedit.exe "\%bootdev%\sntp.reg" "/Q"
+REM services.exe refresh NTP0:
 REM ************************************************
 REM
 REM ************************************************
