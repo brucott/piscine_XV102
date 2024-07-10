@@ -9,7 +9,7 @@
       <PasswordCrypted>sa2Iy70B/eWKkD+KPJQ0YQ==</PasswordCrypted>
       <Port>21</Port>
       <Timeout>15</Timeout>
-      <DestinationFolder>\InternalStorage</DestinationFolder>
+      <DestinationFolder>/InternalStorage</DestinationFolder>
       <Mode>Passive</Mode>
     </FtpConnection>
   </FtpConnections>

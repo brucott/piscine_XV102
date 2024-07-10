@@ -15,5 +15,6 @@
 		<standard Guid="35028c23-b1e8-4730-b294-65bfe058e83e" textID="11"><![CDATA[Pompe]]></standard>
 		<standard Guid="9909281b-99e4-4e7f-bc66-9520ee8724ba" textID="12"><![CDATA[EAU]]></standard>
 		<standard Guid="de4d4b9c-02cb-4a05-ac62-7c4e658bde48" textID="13"><![CDATA[AIR]]></standard>
+		<standard Guid="2d2d9d03-0916-4fb8-9e41-9f26cdc36056" textID="14"><![CDATA[Eclairage]]></standard>
 	</texts>
 </languageData>
