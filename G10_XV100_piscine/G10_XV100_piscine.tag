@@ -1,5 +1,5 @@
 <TagManager Guid="96b96e41-b253-4155-be01-662dbf4cc2c5">
-  <Checksum Value="118909479" />
+  <Checksum Value="4212937516" />
   <CommTags>
     <CommTagsDict CommKey="0">
       <TagContainer Guid="89dd1182-3298-48d8-ab46-4fecb3161f70" Name="0. CODESYS V3">
@@ -309,6 +309,15 @@
               <LimitSettingIntegral Guid="06a379ac-86fa-4a9f-8500-01046c493091" Type="0" Id="3" Value="1" />
             </LimitBit>
             <TagAddress Guid="bf516115-539b-4417-bcf0-7bc1d1c58e00" IsActive="1" Syntax="&lt;prog&gt;%s.&lt;tag&gt;%s" Param1="" Param2="GVLvisu" Param3="" Param4="xSortiePompe" Param5="" UseStdName="1" UseStdArrayIndex="0" ReadOnDemand="1" ReadAtStartup="1" WriteOnDemand="1" Polling="1" PollingRate="1" />
+          </BitTag>
+          <BitTag Guid="c5a2b85e-6bc4-44e1-8ced-c0222708cb16" Name="xStopPompeManuel" DataType="0" IsShared="0" IsLogged="0" Declaration="0" OverrideBaseProps="1" Dummy="0" Object="0">
+            <LimitBit Guid="4dc743b6-ce2c-45a9-a18b-671ba472d5cf" OpenLimit="1" Signed="1" PresetVal="0">
+              <LimitSettingIntegral Guid="f549ecc6-ad43-4c9a-bb5a-9a3afbc63729" Type="0" Id="0" Value="0" />
+              <LimitSettingIntegral Guid="f933a47d-c4e6-4152-a7c2-c36ceb54c149" Type="0" Id="1" Value="0" />
+              <LimitSettingIntegral Guid="5e57a075-3779-4043-ad26-6a10e25154fb" Type="0" Id="2" Value="1" />
+              <LimitSettingIntegral Guid="6f356f96-ece8-4bb9-a5f5-8ab56b0e1da5" Type="0" Id="3" Value="1" />
+            </LimitBit>
+            <TagAddress Guid="600acf1e-e1ed-4765-ba2c-99e6096fb0fc" IsActive="1" Syntax="&lt;prog&gt;%s.&lt;tag&gt;%s" Param1="" Param2="GVLvisu" Param3="" Param4="xStopPompeManuel" Param5="" UseStdName="1" UseStdArrayIndex="0" ReadOnDemand="1" ReadAtStartup="1" WriteOnDemand="1" Polling="1" PollingRate="0" />
           </BitTag>
           <BitTag Guid="8a98a4d6-5fd0-44d1-98df-0a1c1dd4f41d" Name="xTempEauInfZero" DataType="0" IsShared="0" IsLogged="0" Declaration="0" OverrideBaseProps="1" Dummy="0" Object="0">
             <LimitBit Guid="132d1198-5404-4453-8872-e750c61adffc" OpenLimit="1" Signed="1" PresetVal="0">

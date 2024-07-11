@@ -50,6 +50,7 @@
         <Node name="xMarchePompeHivernage" type="T_BOOL" access="ReadWrite" />
         <Node name="xSortieEclairage" type="T_BIT_X_1" access="ReadWrite" directaddress="%QX2.1" />
         <Node name="xSortiePompe" type="T_BIT_X_0" access="ReadWrite" directaddress="%QX2.0" />
+        <Node name="xStopPompeManuel" type="T_BOOL" access="ReadWrite" />
         <Node name="xTempEauInfZero" type="T_BOOL" access="ReadWrite" />
       </Node>
     </Node>

@@ -16,5 +16,6 @@
 		<standard Guid="9909281b-99e4-4e7f-bc66-9520ee8724ba" textID="12"><![CDATA[EAU]]></standard>
 		<standard Guid="de4d4b9c-02cb-4a05-ac62-7c4e658bde48" textID="13"><![CDATA[AIR]]></standard>
 		<standard Guid="2d2d9d03-0916-4fb8-9e41-9f26cdc36056" textID="14"><![CDATA[Eclairage]]></standard>
+		<standard Guid="eeee6333-ea8a-40e9-8845-d600f946fc9c" textID="15"><![CDATA[Arret manuel pompe]]></standard>
 	</texts>
 </languageData>
