@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <ProjectData Guid="e8a5e6c6-85ef-4ea0-bcc5-262f3336b6e1" Version="[10.6.0]" GalileoVersion="Galileo (10.6.8.46693)" ProjectType="0">
-  <Checksum Value="2964202445" />
+  <Checksum Value="2454848266" />
   <VisualizationManager Guid="d1001aaf-2705-447b-8421-c35c5d697757" ActiveVisu="8a9fa64d-dcb5-424f-b6f7-beae98c4f1cb" LocalVisu="c9fa6efd-ddbe-4e27-84c8-dee36e70f590">
     <VisualizationGroup Guid="c9fa6efd-ddbe-4e27-84c8-dee36e70f590" Name="Local" Width="0" Height="0">
       <Visualization Guid="8a9fa64d-dcb5-424f-b6f7-beae98c4f1cb" Name="Local" URL="" Enabled="1" Pwd="" StartScreen="57eeef76-b65d-4bef-a27a-5d097c8a72aa" AutoDisconnectTimeInSeconds="0">
@@ -38,14 +38,22 @@
       <SysKbStyleMapping Guid="ef83a1a1-5dee-4a93-833c-0594373babb5" SourceStyleGuid="eeac38f5-37f2-4f8e-a032-a54c6739487d" />
     </SystemKeyboardsManager>
   </VisualizationManager>
-  <LanguageManager Guid="fdc8f081-523f-496a-afa2-67f314a7ef55" NextFreeGlobalID="1">
+  <LanguageManager Guid="fdc8f081-523f-496a-afa2-67f314a7ef55" NextFreeGlobalID="3">
     <Language Guid="a0c5cd24-e1fb-4713-bcaf-4c5e27b2465c" LanguageName="Language 0" Id="0" Enabled="1" Default="1" SysKeyboard="en_US" SysMsgLanguage="40f13c75-af39-4d47-a22a-90aea9ef2321" PrintFont="[0,10,0]">
       <FontElement Guid="0c78ef2a-f598-4cb1-919b-977ad347f1ec" FontName="Arial" Factor="100" />
+      <FontElement Guid="7218078f-0cc8-47b3-a152-f727da76ab15" FontName="Consolas" Factor="100" />
+      <FontElement Guid="10cd907e-8934-4f36-9b5e-7950a0e222a4" FontName="Seven Segment" Factor="100" />
     </Language>
     <FontIdMapper>
       <KeyValue Key="0" Value="0" />
+      <KeyValue Key="1" Value="1" />
+      <KeyValue Key="2" Value="2" />
     </FontIdMapper>
-    <FontFileMapper />
+    <FontFileMapper>
+      <StringKeyValue StringKey="seven segment" StringValue="C:\Users\bruno\Downloads\7 Segment.ttf" />
+      <StringKeyValue StringKey="seven segment*%bold%*" StringValue="C:\Users\bruno\Downloads\7 Segment.ttf" />
+      <StringKeyValue StringKey="seven segment*%italic%*" StringValue="C:\Users\bruno\Downloads\7 Segment.ttf" />
+    </FontFileMapper>
   </LanguageManager>
   <TextManager Guid="9c86bc55-85e7-48c6-a0a0-134b950fcee2">
     <StandardText Guid="371ce933-d18a-4e21-966e-5044ca5f2900" TextId="0" />
@@ -64,6 +72,9 @@
     <StandardText Guid="de4d4b9c-02cb-4a05-ac62-7c4e658bde48" TextId="13" />
     <StandardText Guid="2d2d9d03-0916-4fb8-9e41-9f26cdc36056" TextId="14" />
     <StandardText Guid="eeee6333-ea8a-40e9-8845-d600f946fc9c" TextId="15" />
+    <StandardText Guid="df8c3191-8b50-426f-a916-71ffe746a19d" TextId="16" />
+    <StandardText Guid="abd1e160-8358-48fc-a575-eeb19096fd86" TextId="17" />
+    <StandardText Guid="87338857-7f3b-49c5-b25d-1aac98f08f82" TextId="18" />
   </TextManager>
   <PictureManager Guid="d24aab31-0f60-4212-b63d-504057223c7e">
     <VideoFolder Guid="cb13a895-f72b-45e6-a8fe-64fb3bc8b2ce" Name="Project video" />
@@ -90,7 +101,7 @@
       </PictureFolder>
     </PictureFolder>
   </PictureManager>
-  <ProjectSettings Guid="e83c1620-9e71-44d4-9f44-1c3c8742a08a" ErrorConfirmationMode="1" ErrorHistorySize="512" CloseHelpWindowOnInactiveError="0" MsgTypeInErrHistoryFile="0" ErrorWindowSortingCriteria="0" ActivateUserLogger="0" UserLoggerDirectory="" CreateNewLogFileDaily="0" MaxEntriesPerLogFile="1000" MaxNumberOfLogFiles="100" UserLoggerMinFreeSpace="10" LogErrorTags="0" TouchDelayTime="5" TouchDoubleClickTime="5" DisplayTouchErrorIndicator="0" SaveTouchErrorIndicator="0" DimOnScreensaver="1" GridSize="10" GridColor="[255 0 0 255]" ShowGrid="1" GridStyle="1" SnapToObjects="1" SnapToGrid="1" SnapGridSize="10" SaveControlsVisibilityState="0" SelectionStyle="1" GraphListOrderWay="0" GraphListOrderBy="0" OthersListOrderWay="0" OthersListOrderBy="0" UserMgmtListOrderWay="0" TransparentTouchColor="[255 0 255 0]" TransparencyLevelTouchColor="25" SysKeybResolution="[0 0]" SysKeyb="1" SysKeybFile="Gray" SysKeybButtonStyle="836c631e-e504-4b62-8f0d-b48a7dc58183" SysKeybDisplayStyle="48802a20-2e3d-4582-a80d-8efa2a6ba79c" SysKeybWndBackColor="[255 169 169 169]" SysKeybHeaderBackColor="[255 135 206 250]" SysKeybFrameColor="[255 0 0 0]" ControlSize="8" StatusSize="8" DateTimeSize="4" ScreenChangeAnimationAllowed="1" PollingTagsInLoopScriptsAllowed="0" DelayedEntryScript="0" ScreenChangeDuration="650" DynamicPositionMode="1" DynamicSizeMode="1" WarnMissingTranslation="1" WarnObjTooSmall="1" WarnLoopScriptStatementCount="1" WarnEventScriptStatementCount="1" WarnErrorTagPlaceholder="0" WarnErrorTagParamPollingRate="1" WarnUsedSlaveTags="1" ErrorMissingImages="1" ErrorMissingTexts="1" ErrorLimitViolations="1" WarnScriptFuncOftenRecurring="1" WarnDisabledEvents="1" WarnStreamButtonInLocalWebVisu="1" CommunicationActive="1" CommUngracefulShutdown="0" CommunicateInSimulator="0" CommInSimUngracefulShutdown="0" ModifyRecipeInSimulator="0" GenerateIpkFile="1" GeneralDataDirectory="data\" RecentUsedColors="[255 0 0 0], [255 255 255 255], [255 211 211 211], [255 255 165 0], [255 26 110 209], [255 192 192 192], [255 255 255 0], [255 255 255 255], [255 0 0 0], [255 240 193 137]" RecentUsedIconLibColors="[255 255 0 0], [255 255 255 255], [255 0 255 0], [255 0 0 0], [0 255 255 255], [0 255 255 255], [0 255 255 255], [0 255 255 255], [0 255 255 255], [0 255 255 255]" TextRenderingAntiAliased="1" UseOpenGLonWin32="1" TextExpImpPath="" TextExpImpType="0">
+  <ProjectSettings Guid="e83c1620-9e71-44d4-9f44-1c3c8742a08a" ErrorConfirmationMode="1" ErrorHistorySize="512" CloseHelpWindowOnInactiveError="0" MsgTypeInErrHistoryFile="0" ErrorWindowSortingCriteria="0" ActivateUserLogger="0" UserLoggerDirectory="" CreateNewLogFileDaily="0" MaxEntriesPerLogFile="1000" MaxNumberOfLogFiles="100" UserLoggerMinFreeSpace="10" LogErrorTags="0" TouchDelayTime="5" TouchDoubleClickTime="5" DisplayTouchErrorIndicator="0" SaveTouchErrorIndicator="0" DimOnScreensaver="1" GridSize="10" GridColor="[255 0 0 255]" ShowGrid="1" GridStyle="1" SnapToObjects="1" SnapToGrid="1" SnapGridSize="10" SaveControlsVisibilityState="0" SelectionStyle="1" GraphListOrderWay="0" GraphListOrderBy="0" OthersListOrderWay="0" OthersListOrderBy="0" UserMgmtListOrderWay="0" TransparentTouchColor="[255 0 255 0]" TransparencyLevelTouchColor="25" SysKeybResolution="[0 0]" SysKeyb="1" SysKeybFile="Gray" SysKeybButtonStyle="836c631e-e504-4b62-8f0d-b48a7dc58183" SysKeybDisplayStyle="48802a20-2e3d-4582-a80d-8efa2a6ba79c" SysKeybWndBackColor="[255 169 169 169]" SysKeybHeaderBackColor="[255 135 206 250]" SysKeybFrameColor="[255 0 0 0]" ControlSize="8" StatusSize="8" DateTimeSize="4" ScreenChangeAnimationAllowed="1" PollingTagsInLoopScriptsAllowed="0" DelayedEntryScript="0" ScreenChangeDuration="650" DynamicPositionMode="1" DynamicSizeMode="1" WarnMissingTranslation="1" WarnObjTooSmall="1" WarnLoopScriptStatementCount="1" WarnEventScriptStatementCount="1" WarnErrorTagPlaceholder="0" WarnErrorTagParamPollingRate="1" WarnUsedSlaveTags="1" ErrorMissingImages="1" ErrorMissingTexts="1" ErrorLimitViolations="1" WarnScriptFuncOftenRecurring="1" WarnDisabledEvents="1" WarnStreamButtonInLocalWebVisu="1" CommunicationActive="1" CommUngracefulShutdown="0" CommunicateInSimulator="0" CommInSimUngracefulShutdown="0" ModifyRecipeInSimulator="0" GenerateIpkFile="1" GeneralDataDirectory="data\" RecentUsedColors="[255 255 255 255], [255 0 0 0], [255 0 155 0], [255 0 130 0], [255 0 105 0], [255 0 0 0], [255 211 211 211], [255 255 165 0], [255 26 110 209], [255 192 192 192]" RecentUsedIconLibColors="[255 255 0 0], [255 255 255 255], [255 0 255 0], [255 0 0 0], [0 255 255 255], [0 255 255 255], [0 255 255 255], [0 255 255 255], [0 255 255 255], [0 255 255 255]" TextRenderingAntiAliased="1" UseOpenGLonWin32="1" TextExpImpPath="" TextExpImpType="0">
     <AppearanceNoFrame Guid="a9c61894-8240-4c62-85fa-932985d40892" SelFrameWidth="1" />
     <Appearance2DFrame Guid="4cb6209f-b23c-421b-bbae-156ef3f9a3f7" FrameOn="[255 255 255 255]" FrameOff="[255 0 0 0]" FrameWidth="1" SelFrameWidth="2" />
     <Appearance3DFrame Guid="7f057add-6194-4b77-9c36-abe80d24f8d0" FrameOn="[255 255 255 255]" FrameOff="[255 0 0 0]" ShadowTLOn="[255 0 0 0]" ShadowTLOff="[255 255 255 255]" ShadowBROn="[255 211 211 211]" ShadowBROff="[255 128 128 128]" FrameWidth="0" ShadowWidth="2" DispShadowWidth="2" />
@@ -196,11 +207,14 @@
     <ConversionGroup Guid="951b1b6d-d096-47c3-9d63-9d3ec73cd941" Name="Group0">
       <Conversion Guid="7c9df2bf-8ef0-4f42-9a4e-13ae3870ab29" Name="Conversion0" CalcType="1" LeadingZeros="0" Digits="3" Dec="2" Multi="1" Div="1" Offset="0" Unit="75d8889d-519e-4cc0-a04e-9ad3df92d582" />
     </ConversionGroup>
+    <ConversionGroup Guid="9f8b4d3c-9cae-4dbd-9a40-d29ec9a3db5e" Name="heures">
+      <Conversion Guid="421f2ba4-2f67-46a3-9424-874607092142" Name="Conversion0" CalcType="0" LeadingZeros="1" Digits="2" Dec="0" Multi="1" Div="1" Offset="0" Unit="87338857-7f3b-49c5-b25d-1aac98f08f82" />
+    </ConversionGroup>
   </ConversionManager>
   <ParamListManager Guid="c17df9d9-5b70-4026-bf48-fb6f023b5fd9" />
   <GraphBlockManager Guid="2a20c512-282d-4bc3-b193-f7246efbdb10">
     <GraphFolder Guid="eb9095fe-7721-4c70-97fe-8689b7227872">
-      <GraphBlock Guid="071b7790-7135-4653-99a3-c4b9aceb962a" Samples="10000" Number="0" AditionalSamplesAfterStop="0" BlocksName="Temperatures" ResetBehavior="1" StartIfTag="6610b2b2-a216-4327-9783-7757fad6cf78" StopIfTag="6610b2b2-a216-4327-9783-7757fad6cf78" StartIfEnabled="1" StopIfEnabled="1" StartIfValue="M:1" StopIfValue="M:0" StartOperator="0" StopOperator="0" FileLocation="2" Directory="\Storagecard" NumberOfArchives="9" SaveContinuously="1" LoadLastAtStartUp="1" TimeSpan_PropType="0" TimeSpan_Value="M:60" ArchiveName_PropType="0" ArchiveName_Value="@start_date@_graphs">
+      <GraphBlock Guid="071b7790-7135-4653-99a3-c4b9aceb962a" Samples="10000" Number="0" AditionalSamplesAfterStop="0" BlocksName="Temperatures" ResetBehavior="1" StartIfTag="6610b2b2-a216-4327-9783-7757fad6cf78" StopIfTag="6610b2b2-a216-4327-9783-7757fad6cf78" StartIfEnabled="1" StopIfEnabled="1" StartIfValue="M:1" StopIfValue="M:0" StartOperator="0" StopOperator="0" FileLocation="0" Directory="\InternalStorage" NumberOfArchives="9" SaveContinuously="1" LoadLastAtStartUp="1" TimeSpan_PropType="0" TimeSpan_Value="M:60" ArchiveName_PropType="0" ArchiveName_Value="@start_date@_graphs">
         <TagList Guid="ca93df1d-952b-41c4-b705-1e1581c5486d" PName="Tags">
           <InnerTagList>
             <TagRef Guid="4324b43a-054a-4309-a7f9-0b263b639c5a" />

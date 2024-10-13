@@ -23,7 +23,6 @@
         <Node name="iHeureFinFiltration" type="T_INT" access="ReadWrite" />
         <Node name="iHorsGelTempBasse" type="T_INT" access="ReadWrite" />
         <Node name="iHorsGelTempHaute" type="T_INT" access="ReadWrite" />
-        <Node name="rTempAirTerrasse" type="T_REAL" access="ReadWrite" />
         <Node name="rTempEauPompe" type="T_REAL" access="ReadWrite" />
         <Node name="uiGetDay" type="T_UINT" access="ReadWrite" />
         <Node name="uiGetDayOfWeek" type="T_UINT" access="ReadWrite" />
@@ -38,8 +37,6 @@
         <Node name="wReserve06" type="T_INT" access="Read" directaddress="%IW12" />
         <Node name="wReserve07" type="T_INT" access="Read" directaddress="%IW14" />
         <Node name="wReserve08" type="T_INT" access="Read" directaddress="%IW16" />
-        <Node name="wTempAirTerrasse" type="T_INT" access="Read" directaddress="%IW6" />
-        <Node name="wTempAirTerrasseFiltered" type="T_WORD" access="ReadWrite" />
         <Node name="wTempEauPompe" type="T_INT" access="Read" directaddress="%IW2" />
         <Node name="wTempEauPompeFiltered" type="T_WORD" access="ReadWrite" />
         <Node name="xMarcheManuEclairageEcran" type="T_BOOL" access="ReadWrite" />

@@ -5,7 +5,9 @@
 	<textprint fontid="0" size="10" bold="0" italic="0" />
 	<fonts>
 		<font id="0" fontname="Arial" filename="arial.ttf" fontsizefactor="100" regular="1" bold="0" italic="0" />
-		<font id="1" fontname="Arial Bold" filename="arialbd.ttf" fontsizefactor="100" regular="0" bold="1" italic="0" />
+		<font id="1" fontname="Consolas" filename="consola.ttf" fontsizefactor="100" regular="1" bold="0" italic="0" />
+		<font id="2" fontname="Seven Segment" filename="7 segment.ttf" fontsizefactor="100" regular="1" bold="0" italic="0" />
+		<font id="3" fontname="Arial Bold" filename="arialbd.ttf" fontsizefactor="100" regular="0" bold="1" italic="0" />
 	</fonts>
 	<texts>
 		<standard>
@@ -24,7 +26,10 @@
 			<s ID="12"><![CDATA[EAU]]></s>
 			<s ID="13"><![CDATA[AIR]]></s>
 			<s ID="14"><![CDATA[Eclairage]]></s>
-			<s ID="15"><![CDATA[Arret manuel pompe]]></s>
+			<s ID="15"><![CDATA[Arret pompe manuel]]></s>
+			<s ID="16"><![CDATA[Demarrage pompe]]></s>
+			<s ID="17"><![CDATA[Arret pompe]]></s>
+			<s ID="18"><![CDATA[: 00]]></s>
 			<s ID="-10"><![CDATA[Delete User Account]]></s>
 			<s ID="-9"><![CDATA[Create User Account]]></s>
 			<s ID="-8"><![CDATA[Change group of user]]></s>

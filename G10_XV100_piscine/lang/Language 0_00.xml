@@ -16,6 +16,9 @@
 		<standard Guid="9909281b-99e4-4e7f-bc66-9520ee8724ba" textID="12"><![CDATA[EAU]]></standard>
 		<standard Guid="de4d4b9c-02cb-4a05-ac62-7c4e658bde48" textID="13"><![CDATA[AIR]]></standard>
 		<standard Guid="2d2d9d03-0916-4fb8-9e41-9f26cdc36056" textID="14"><![CDATA[Eclairage]]></standard>
-		<standard Guid="eeee6333-ea8a-40e9-8845-d600f946fc9c" textID="15"><![CDATA[Arret manuel pompe]]></standard>
+		<standard Guid="eeee6333-ea8a-40e9-8845-d600f946fc9c" textID="15"><![CDATA[Arret pompe manuel]]></standard>
+		<standard Guid="df8c3191-8b50-426f-a916-71ffe746a19d" textID="16"><![CDATA[Demarrage pompe]]></standard>
+		<standard Guid="abd1e160-8358-48fc-a575-eeb19096fd86" textID="17"><![CDATA[Arret pompe]]></standard>
+		<standard Guid="87338857-7f3b-49c5-b25d-1aac98f08f82" textID="18"><![CDATA[: 00]]></standard>
 	</texts>
 </languageData>
