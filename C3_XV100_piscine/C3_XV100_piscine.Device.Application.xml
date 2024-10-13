@@ -34,7 +34,6 @@
         <Node name="uiGetSecond" type="T_UINT" access="ReadWrite" />
         <Node name="uiGetYday" type="T_UINT" access="ReadWrite" />
         <Node name="uiGetYear" type="T_UINT" access="ReadWrite" />
-        <Node name="wReserve05" type="T_INT" access="Read" directaddress="%IW10" />
         <Node name="wReserve07" type="T_INT" access="Read" directaddress="%IW14" />
         <Node name="wReserve08" type="T_INT" access="Read" directaddress="%IW16" />
         <Node name="wTempEauPompe" type="T_INT" access="Read" directaddress="%IW2" />
