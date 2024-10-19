@@ -1,6 +1,6 @@
 <StandardScreen Guid="740774ba-91d2-49da-a8f8-389ba884f9d4" Res="[320 240]" ScreenColor="[255 26 110 209]" ActiveSet="4af7c728-7c79-4dac-b9ee-196ddbad8df9" Name="Control" No="3" Version="[10.6.0]" SaverTime="0" UseScreenSaver="0" UseTouchDisable="0" TouchTime="0">
-  <Checksum Value="734195449" />
-  <ControlUserControl Guid="a51fa7c1-0f17-466f-9a67-c64b92a4e50f" LockedPosition="0" ControlSet="4af7c728-7c79-4dac-b9ee-196ddbad8df9" Name="" Anchor="5" BackColor="[0 255 255 255]" ResizeMode="0" AlignmentForUniformStretch="1" X_PropType="0" X_Value="0" Y_PropType="0" Y_Value="220" Width_PropType="0" Width_Value="320" Height_PropType="0" Height_Value="20">
+  <Checksum Value="944071285" />
+  <ControlUserControl Guid="a51fa7c1-0f17-466f-9a67-c64b92a4e50f" LockedPosition="0" ControlSet="4af7c728-7c79-4dac-b9ee-196ddbad8df9" Name="" Anchor="5" BackColor="[0 255 255 255]" ResizeMode="0" AlignmentForUniformStretch="1" X_PropType="0" X_Value="0" Y_PropType="0" Y_Value="210" Width_PropType="0" Width_Value="320" Height_PropType="0" Height_Value="30">
     <SubScreenEntry Guid="3577dbf3-7223-49e6-81fd-9f167e5bb3f5" SubScreen="d089d4b7-cbb9-4f86-9460-d58adb10f389" Name="">
       <SSAC Guid="a88e080f-9059-4b5e-a539-8c4e57940365" />
     </SubScreenEntry>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<ProjectData Guid="e8a5e6c6-85ef-4ea0-bcc5-262f3336b6e1" Version="[10.6.0]" GalileoVersion="Galileo (10.6.8.46693)" ProjectType="0">
-  <Checksum Value="2454848266" />
+<ProjectData Guid="e8a5e6c6-85ef-4ea0-bcc5-262f3336b6e1" Version="[10.6.0]" GalileoVersion="Galileo (10.6.9.47049)" ProjectType="0">
+  <Checksum Value="2421318338" />
   <VisualizationManager Guid="d1001aaf-2705-447b-8421-c35c5d697757" ActiveVisu="8a9fa64d-dcb5-424f-b6f7-beae98c4f1cb" LocalVisu="c9fa6efd-ddbe-4e27-84c8-dee36e70f590">
     <VisualizationGroup Guid="c9fa6efd-ddbe-4e27-84c8-dee36e70f590" Name="Local" Width="0" Height="0">
       <Visualization Guid="8a9fa64d-dcb5-424f-b6f7-beae98c4f1cb" Name="Local" URL="" Enabled="1" Pwd="" StartScreen="57eeef76-b65d-4bef-a27a-5d097c8a72aa" AutoDisconnectTimeInSeconds="0">
@@ -12,10 +12,7 @@
         <ScreenFolderNew Guid="93383e0e-183d-4400-8a3e-898ac8ac3baa" Name="" Type="-1">
           <ScreenFolderRootNew Guid="efaa6ca2-adbd-4119-927d-874736575372" Name="" Type="1">
             <ScreenRef Guid="57eeef76-b65d-4bef-a27a-5d097c8a72aa" Name="Start" />
-            <ScreenRef Guid="44fe1c9d-3fed-44be-ae79-8c2d98b64635" Name="Alarmes" />
-            <ScreenRef Guid="4895489e-e7c5-4b42-9993-705fd570e52d" Name="Temperature" />
             <ScreenRef Guid="740774ba-91d2-49da-a8f8-389ba884f9d4" Name="Control" />
-            <ScreenRef Guid="ba73b491-a8e6-44ac-a36f-f4e44e501892" Name="Graphiques" />
           </ScreenFolderRootNew>
           <ScreenFolderRootNew Guid="20954b18-5f58-4df4-bcf9-1047017cfe05" Name="" Type="3" />
           <ScreenFolderRootNew Guid="bc45bdb1-d536-46ea-ba64-aba9bb26afdc" Name="" Type="4" />
@@ -29,13 +26,13 @@
     </VisualizationGroup>
     <SystemKeyboardsManager Guid="396cc79c-24a0-400c-8f59-77ab5d556c41" OverrideStyles="0" OverrideBackgroundColor="0" SysKeybBackColor="[255 255 255 255]">
       <KeyboardOptions Guid="9b66979b-3511-4276-991f-620c9c6f907f" PName="KeyboardOptions" IsActive="1" PaleScreen="1" FixedPosition="0" RememberLastPosition="0" DefaultPosition="0" DisplayAsPassword="0" ShowPassword="0" />
-      <SysKbStyleMapping Guid="62072c28-b82f-431f-92ab-8d1157e49d25" SourceStyleGuid="9e4221e3-9d4d-48b2-8dd6-d59283c9f092" />
-      <SysKbStyleMapping Guid="b488091a-3dcd-41c7-ad10-fc4d2f350812" SourceStyleGuid="2f745f01-8375-499c-845d-18a63129f71a" />
-      <SysKbStyleMapping Guid="75c5a3d3-48d8-4dbb-83ba-98b51b386031" SourceStyleGuid="a13ccea0-b898-41bf-8f6d-e0a8276d36b8" />
-      <SysKbStyleMapping Guid="61a1ef23-257a-477a-9c4b-15bbec0efb0d" SourceStyleGuid="29f8af57-0ead-481a-a872-ffbd5e1d9b5f" />
-      <SysKbStyleMapping Guid="3e0a8632-596a-4180-a07c-c54a05b86d13" SourceStyleGuid="e7a497b7-fece-41ca-a254-35765e5be528" />
-      <SysKbStyleMapping Guid="8028424c-8b19-4840-add6-5b5e09729d4a" SourceStyleGuid="2f0a05b2-464c-4748-83a8-5a8f116c45a7" />
-      <SysKbStyleMapping Guid="ef83a1a1-5dee-4a93-833c-0594373babb5" SourceStyleGuid="eeac38f5-37f2-4f8e-a032-a54c6739487d" />
+      <SysKbStyleMapping Guid="f72418f6-58fe-453a-8778-62a905f5b733" SourceStyleGuid="1fd8c06d-04bc-4b62-803c-a92dadf2bc81" />
+      <SysKbStyleMapping Guid="1f385536-1be1-4001-90a5-8ce7ccdc93a5" SourceStyleGuid="1a9c3f60-baa1-436d-820e-2f3a2fe9b4eb" />
+      <SysKbStyleMapping Guid="5410dafd-32d1-43b5-bc04-43e94e0ac8a4" SourceStyleGuid="309fb73c-5db1-439a-a4dd-045fe4b945ac" />
+      <SysKbStyleMapping Guid="4c097bee-53f8-4894-a3cd-8ba95aaa79a8" SourceStyleGuid="71355cb5-daa9-4e40-8906-8adab10f2a7c" />
+      <SysKbStyleMapping Guid="0efefbd4-6887-46b7-be17-4fb40f0ce882" SourceStyleGuid="5201e6eb-f6d7-4413-876c-58feceea0d4f" />
+      <SysKbStyleMapping Guid="e99d9fa9-faed-4f99-81ff-3dbca48cd44c" SourceStyleGuid="8fd439f0-142d-4f0f-a513-4d4d39337b5c" />
+      <SysKbStyleMapping Guid="d8243084-546f-4efe-9475-cf0a867ca6f6" SourceStyleGuid="5f631cb8-f96f-4012-aa28-2e9f711d1bd6" />
     </SystemKeyboardsManager>
   </VisualizationManager>
   <LanguageManager Guid="fdc8f081-523f-496a-afa2-67f314a7ef55" NextFreeGlobalID="3">
