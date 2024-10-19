@@ -1,5 +1,5 @@
 <TagManager Guid="96b96e41-b253-4155-be01-662dbf4cc2c5">
-  <Checksum Value="4212937516" />
+  <Checksum Value="1380869829" />
   <CommTags>
     <CommTagsDict CommKey="0">
       <TagContainer Guid="89dd1182-3298-48d8-ab46-4fecb3161f70" Name="0. CODESYS V3">
@@ -67,6 +67,24 @@
             </LimitWord>
             <TagAddress Guid="92b43c2c-ff7c-47d0-a691-0066260bd536" IsActive="1" Syntax="&lt;prog&gt;%s.&lt;tag&gt;%s" Param1="" Param2="GVLvisu" Param3="" Param4="iHorsGelTempHaute" Param5="" UseStdName="1" UseStdArrayIndex="0" ReadOnDemand="1" ReadAtStartup="1" WriteOnDemand="1" Polling="1" PollingRate="1" />
           </WordTag>
+          <FloatTag Guid="7da42bc1-75a9-4c55-9516-9ef0a835aabb" Name="rPourcentageHumidite" DataType="4" IsShared="0" IsLogged="0" Declaration="0" OverrideBaseProps="1" Dummy="0" Object="0">
+            <LimitFloat Guid="8ef4c212-9490-4c83-b6d9-bb84ae4867f8" OpenLimit="1" Signed="1" PresetVal="0">
+              <LimitSettingFloat Guid="b08540fd-65aa-4196-88e1-8fba6bc76212" Type="0" Id="0" Value="-3.4028234663852886E+38" />
+              <LimitSettingFloat Guid="92499da2-f141-46ae-9b7f-41eb2b2299ab" Type="0" Id="1" Value="-3.4028234663852886E+38" />
+              <LimitSettingFloat Guid="e490ac77-c267-4e85-8e45-5325045e956a" Type="0" Id="2" Value="3.4028234663852886E+38" />
+              <LimitSettingFloat Guid="e34fec82-5f49-4bb9-8dff-da7043ef753b" Type="0" Id="3" Value="3.4028234663852886E+38" />
+            </LimitFloat>
+            <TagAddress Guid="9869e2b4-0a02-428c-bf63-907f9887b2db" IsActive="1" Syntax="&lt;prog&gt;%s.&lt;tag&gt;%s" Param1="" Param2="GVLvisu" Param3="" Param4="rPourcentageHumidite" Param5="" UseStdName="1" UseStdArrayIndex="0" ReadOnDemand="1" ReadAtStartup="1" WriteOnDemand="1" Polling="1" PollingRate="0" />
+          </FloatTag>
+          <FloatTag Guid="e382f3b2-ff7e-4bac-a0ce-ba59c352e050" Name="rTempAirLocalPiscine" DataType="4" IsShared="0" IsLogged="0" Declaration="0" OverrideBaseProps="1" Dummy="0" Object="0">
+            <LimitFloat Guid="fe69928a-530b-4920-90ad-87ddb6fdc055" OpenLimit="1" Signed="1" PresetVal="0">
+              <LimitSettingFloat Guid="63e011eb-c6ce-4342-bc82-3a24e4251bfb" Type="0" Id="0" Value="-3.4028234663852886E+38" />
+              <LimitSettingFloat Guid="86dfdf1d-7325-4801-b681-7f5ae4e817dd" Type="0" Id="1" Value="-3.4028234663852886E+38" />
+              <LimitSettingFloat Guid="58fc93d2-8b5b-4fb0-954b-e1e0e50469b7" Type="0" Id="2" Value="3.4028234663852886E+38" />
+              <LimitSettingFloat Guid="179308d2-7664-4b51-99fc-5acf1159677d" Type="0" Id="3" Value="3.4028234663852886E+38" />
+            </LimitFloat>
+            <TagAddress Guid="dc9e9b4f-62bd-4f89-b0a8-680bd82cf971" IsActive="1" Syntax="&lt;prog&gt;%s.&lt;tag&gt;%s" Param1="" Param2="GVLvisu" Param3="" Param4="rTempAirLocalPiscine" Param5="" UseStdName="1" UseStdArrayIndex="0" ReadOnDemand="1" ReadAtStartup="1" WriteOnDemand="1" Polling="1" PollingRate="0" />
+          </FloatTag>
           <FloatTag Guid="c7c82ba5-7573-411b-86a7-3344dca91890" Name="rTempAirTerrasse" DataType="4" IsShared="0" IsLogged="0" Declaration="0" OverrideBaseProps="1" Dummy="0" Object="0">
             <LimitFloat Guid="e786dcbb-cf12-4fdc-bb8d-efcfefe3a017" OpenLimit="1" Signed="1" PresetVal="0">
               <LimitSettingFloat Guid="a7d60d76-c644-48d2-a15c-7e5bae2edd3f" Type="0" Id="0" Value="-3.4028234663852886E+38" />
@@ -166,23 +184,14 @@
             </LimitWord>
             <TagAddress Guid="09676ad2-aced-4bd2-a6cd-584c6c84ee54" IsActive="1" Syntax="&lt;prog&gt;%s.&lt;tag&gt;%s" Param1="" Param2="GVLvisu" Param3="" Param4="uiGetYear" Param5="" UseStdName="1" UseStdArrayIndex="0" ReadOnDemand="1" ReadAtStartup="1" WriteOnDemand="1" Polling="1" PollingRate="0" />
           </WordTag>
-          <WordTag Guid="8f373bc8-948c-4c53-a65f-e263d2c55eb5" Name="wReserve05" DataType="2" IsShared="0" IsLogged="0" Declaration="0" OverrideBaseProps="1" Dummy="0" Object="0">
-            <LimitWord Guid="0daec8c2-a3f2-478e-bbee-d193025afbd8" OpenLimit="1" Signed="1" PresetVal="0">
-              <LimitSettingIntegral Guid="ef39a2eb-7f57-4d71-9b67-9d0163e82d68" Type="0" Id="0" Value="-32768" />
-              <LimitSettingIntegral Guid="39522970-dc4b-43ec-8880-2c9944591b02" Type="0" Id="1" Value="-32768" />
-              <LimitSettingIntegral Guid="267c6d1a-3401-483f-b7cf-fc05a8c2d31a" Type="0" Id="2" Value="32767" />
-              <LimitSettingIntegral Guid="e0458041-f906-483f-bc56-b58edb454ac7" Type="0" Id="3" Value="32767" />
+          <WordTag Guid="50e01224-f276-4075-9293-503e7f05d58d" Name="wPourcentageHumidite" DataType="2" IsShared="0" IsLogged="0" Declaration="0" OverrideBaseProps="1" Dummy="0" Object="0">
+            <LimitWord Guid="d6abaf54-25e6-46b4-9277-767df93c3740" OpenLimit="1" Signed="1" PresetVal="0">
+              <LimitSettingIntegral Guid="c47c2d31-840f-4c75-b6cb-6f3b6a6610fb" Type="0" Id="0" Value="-32768" />
+              <LimitSettingIntegral Guid="cdb1e7db-1baa-47c9-86bc-22dc0b96d1b4" Type="0" Id="1" Value="-32768" />
+              <LimitSettingIntegral Guid="db9105d0-7d35-41af-9ac0-7ac55d4d8dea" Type="0" Id="2" Value="32767" />
+              <LimitSettingIntegral Guid="1db58ad6-7830-454f-9744-4474644bdfff" Type="0" Id="3" Value="32767" />
             </LimitWord>
-            <TagAddress Guid="ae1a020a-d89b-4baf-b3a6-4b6195bb7592" IsActive="1" Syntax="&lt;prog&gt;%s.&lt;tag&gt;%s" Param1="" Param2="GVLvisu" Param3="" Param4="wReserve05" Param5="" UseStdName="1" UseStdArrayIndex="0" ReadOnDemand="1" ReadAtStartup="1" WriteOnDemand="0" Polling="1" PollingRate="1" />
-          </WordTag>
-          <WordTag Guid="90defdc9-25dd-45b1-b115-36ba26cf836d" Name="wReserve06" DataType="2" IsShared="0" IsLogged="0" Declaration="0" OverrideBaseProps="1" Dummy="0" Object="0">
-            <LimitWord Guid="cf1a4e59-ec5f-4e66-854a-92355ad880c2" OpenLimit="1" Signed="1" PresetVal="0">
-              <LimitSettingIntegral Guid="678744c7-eb9e-410e-879e-e62d1138c811" Type="0" Id="0" Value="-32768" />
-              <LimitSettingIntegral Guid="542c5ce2-b597-49df-97c7-d0f992b29329" Type="0" Id="1" Value="-32768" />
-              <LimitSettingIntegral Guid="2fb6f8c5-9e79-412a-a89c-11bb737e1e99" Type="0" Id="2" Value="32767" />
-              <LimitSettingIntegral Guid="9cd6ca26-9708-40fc-8e68-a44741757194" Type="0" Id="3" Value="32767" />
-            </LimitWord>
-            <TagAddress Guid="c5b44eb7-fcf4-4d93-8a62-d48226b1f5b4" IsActive="1" Syntax="&lt;prog&gt;%s.&lt;tag&gt;%s" Param1="" Param2="GVLvisu" Param3="" Param4="wReserve06" Param5="" UseStdName="1" UseStdArrayIndex="0" ReadOnDemand="1" ReadAtStartup="1" WriteOnDemand="0" Polling="1" PollingRate="1" />
+            <TagAddress Guid="9a476748-67bc-4a7a-acd6-81b4bf393304" IsActive="1" Syntax="&lt;prog&gt;%s.&lt;tag&gt;%s" Param1="" Param2="GVLvisu" Param3="" Param4="wPourcentageHumidite" Param5="" UseStdName="1" UseStdArrayIndex="0" ReadOnDemand="1" ReadAtStartup="1" WriteOnDemand="0" Polling="1" PollingRate="0" />
           </WordTag>
           <WordTag Guid="342d9350-f29b-4f0d-a4b3-5ce73ee7ce45" Name="wReserve07" DataType="2" IsShared="0" IsLogged="0" Declaration="0" OverrideBaseProps="1" Dummy="0" Object="0">
             <LimitWord Guid="f7c161ce-2f04-4fe9-ac5b-b6116549c676" OpenLimit="1" Signed="1" PresetVal="0">
@@ -202,23 +211,32 @@
             </LimitWord>
             <TagAddress Guid="37fc7de7-7a9f-44a7-af65-7e94c7dbdf81" IsActive="1" Syntax="&lt;prog&gt;%s.&lt;tag&gt;%s" Param1="" Param2="GVLvisu" Param3="" Param4="wReserve08" Param5="" UseStdName="1" UseStdArrayIndex="0" ReadOnDemand="1" ReadAtStartup="1" WriteOnDemand="0" Polling="1" PollingRate="1" />
           </WordTag>
-          <WordTag Guid="359fca7b-0aed-4326-95fe-9f5012ee27ba" Name="wTempAirTerrasse" DataType="2" IsShared="0" IsLogged="0" Declaration="0" OverrideBaseProps="1" Dummy="0" Object="0">
-            <LimitWord Guid="a0d53d7c-784a-4ddc-a47b-e7e145ea722e" OpenLimit="1" Signed="1" PresetVal="0">
-              <LimitSettingIntegral Guid="ed819071-e7ff-4bce-aef0-5488155eaf69" Type="0" Id="0" Value="-32768" />
-              <LimitSettingIntegral Guid="2ceb611b-5cc2-4dfd-ab9c-4b6be0cd8db6" Type="0" Id="1" Value="-32768" />
-              <LimitSettingIntegral Guid="8762ccf5-4e3e-4b34-bf62-25980ddc986c" Type="0" Id="2" Value="32767" />
-              <LimitSettingIntegral Guid="35df258e-f232-4573-858b-f894fb3cdf8c" Type="0" Id="3" Value="32767" />
+          <WordTag Guid="310b1dcc-fad0-4782-ae23-7c9cea81e828" Name="wTempAirLocalPiscine" DataType="2" IsShared="0" IsLogged="0" Declaration="0" OverrideBaseProps="1" Dummy="0" Object="0">
+            <LimitWord Guid="62dad619-72e9-4bf3-99af-24cf066c8972" OpenLimit="1" Signed="1" PresetVal="0">
+              <LimitSettingIntegral Guid="48962a8d-318c-4808-9d54-a224c624977f" Type="0" Id="0" Value="-32768" />
+              <LimitSettingIntegral Guid="3d88083e-5c70-4104-8ad6-6d7f2ef4195f" Type="0" Id="1" Value="-32768" />
+              <LimitSettingIntegral Guid="de381434-e33c-494d-97f3-1ac9478f1acc" Type="0" Id="2" Value="32767" />
+              <LimitSettingIntegral Guid="6260ad55-66d8-4833-944e-273bd52a4b51" Type="0" Id="3" Value="32767" />
             </LimitWord>
-            <TagAddress Guid="26c87f0a-0ac4-46ab-9afe-b1ea6434e9a0" IsActive="1" Syntax="&lt;prog&gt;%s.&lt;tag&gt;%s" Param1="" Param2="GVLvisu" Param3="" Param4="wTempAirTerrasse" Param5="" UseStdName="1" UseStdArrayIndex="0" ReadOnDemand="1" ReadAtStartup="1" WriteOnDemand="0" Polling="1" PollingRate="1" />
+            <TagAddress Guid="289d7d8f-ff03-4bc4-9f57-7de5fca755e1" IsActive="1" Syntax="&lt;prog&gt;%s.&lt;tag&gt;%s" Param1="" Param2="GVLvisu" Param3="" Param4="wTempAirLocalPiscine" Param5="" UseStdName="1" UseStdArrayIndex="0" ReadOnDemand="1" ReadAtStartup="1" WriteOnDemand="0" Polling="1" PollingRate="0" />
           </WordTag>
-          <WordTag Guid="71de780e-bd7d-4a8e-bed6-3de555462a0d" Name="wTempAirTerrasseFiltered" DataType="2" IsShared="0" IsLogged="0" Declaration="0" OverrideBaseProps="1" Dummy="0" Object="0">
-            <LimitWord Guid="fba8889f-540c-46c7-b6e7-3731f576ba34" OpenLimit="1" Signed="0" PresetVal="0">
-              <LimitSettingIntegral Guid="ceacfba1-fa0a-4020-8658-1ca026b32b9e" Type="0" Id="0" Value="0" />
-              <LimitSettingIntegral Guid="6963f413-8fcc-4e98-9cc9-694d3fe4f85a" Type="0" Id="1" Value="0" />
-              <LimitSettingIntegral Guid="92650a52-0f34-4899-8395-d586c11b64da" Type="0" Id="2" Value="65535" />
-              <LimitSettingIntegral Guid="62b368a4-559f-4e56-950e-b0b6a7faf540" Type="0" Id="3" Value="65535" />
+          <WordTag Guid="ab99c824-a3d4-4579-8c24-21c960b4f1dd" Name="wTempAirLocalPiscineFiltered" DataType="2" IsShared="0" IsLogged="0" Declaration="0" OverrideBaseProps="1" Dummy="0" Object="0">
+            <LimitWord Guid="8216111a-00bc-40c4-bf5f-5745c91f12f8" OpenLimit="1" Signed="0" PresetVal="0">
+              <LimitSettingIntegral Guid="feb1ac65-f565-45a3-b659-102f695d9a22" Type="0" Id="0" Value="0" />
+              <LimitSettingIntegral Guid="5760f342-314d-4303-a274-967575bf3908" Type="0" Id="1" Value="0" />
+              <LimitSettingIntegral Guid="ba436a94-8250-46fe-b1db-2cfcd2610fb4" Type="0" Id="2" Value="65535" />
+              <LimitSettingIntegral Guid="a98f07c9-611f-4c10-82cc-c9f5413d4ee4" Type="0" Id="3" Value="65535" />
             </LimitWord>
-            <TagAddress Guid="1d82672d-329a-47f1-8740-8210eccf8413" IsActive="1" Syntax="&lt;prog&gt;%s.&lt;tag&gt;%s" Param1="" Param2="GVLvisu" Param3="" Param4="wTempAirTerrasseFiltered" Param5="" UseStdName="1" UseStdArrayIndex="0" ReadOnDemand="1" ReadAtStartup="1" WriteOnDemand="1" Polling="1" PollingRate="0" />
+            <TagAddress Guid="392d54db-de9f-4e73-8278-8d1504b1b26e" IsActive="1" Syntax="&lt;prog&gt;%s.&lt;tag&gt;%s" Param1="" Param2="GVLvisu" Param3="" Param4="wTempAirLocalPiscineFiltered" Param5="" UseStdName="1" UseStdArrayIndex="0" ReadOnDemand="1" ReadAtStartup="1" WriteOnDemand="1" Polling="1" PollingRate="0" />
+          </WordTag>
+          <WordTag Guid="ba64efdd-1cd6-4b46-9b0c-75b152367a86" Name="wTempAirTerrasseBrut" DataType="2" IsShared="0" IsLogged="0" Declaration="0" OverrideBaseProps="1" Dummy="0" Object="0">
+            <LimitWord Guid="22f04ad2-f1c8-4ee3-9a9f-c9ee7a483f01" OpenLimit="1" Signed="1" PresetVal="0">
+              <LimitSettingIntegral Guid="e972ca7b-6b92-49ee-9477-0153df3c5d75" Type="0" Id="0" Value="-32768" />
+              <LimitSettingIntegral Guid="1641e992-a950-4318-94f0-15680db3d94b" Type="0" Id="1" Value="-32768" />
+              <LimitSettingIntegral Guid="18d79846-6051-45cf-901e-2e043fecebdd" Type="0" Id="2" Value="32767" />
+              <LimitSettingIntegral Guid="449f38d7-5694-4963-bf97-2d31f0c49e8e" Type="0" Id="3" Value="32767" />
+            </LimitWord>
+            <TagAddress Guid="0c6e7a07-0061-4140-8dbc-1b7cfd7ae027" IsActive="1" Syntax="&lt;prog&gt;%s.&lt;tag&gt;%s" Param1="" Param2="GVLvisu" Param3="" Param4="wTempAirTerrasseBrut" Param5="" UseStdName="1" UseStdArrayIndex="0" ReadOnDemand="1" ReadAtStartup="1" WriteOnDemand="0" Polling="1" PollingRate="0" />
           </WordTag>
           <WordTag Guid="3738d936-29c6-44ca-a6fd-7236a98941cf" Name="wTempEauPompe" DataType="2" IsShared="0" IsLogged="0" Declaration="0" OverrideBaseProps="1" Dummy="0" Object="0">
             <LimitWord Guid="ce0a5aa1-86bf-4815-aada-ac9c057d31a7" OpenLimit="1" Signed="1" PresetVal="0">
@@ -327,15 +345,6 @@
               <LimitSettingIntegral Guid="d6de124a-7c65-4a9a-96fc-1864babc953a" Type="0" Id="3" Value="1" />
             </LimitBit>
             <TagAddress Guid="d8d05e3e-6d3b-40ad-a95b-e4d4542d1ed3" IsActive="1" Syntax="&lt;prog&gt;%s.&lt;tag&gt;%s" Param1="" Param2="GVLvisu" Param3="" Param4="xTempEauInfZero" Param5="" UseStdName="1" UseStdArrayIndex="0" ReadOnDemand="1" ReadAtStartup="1" WriteOnDemand="1" Polling="1" PollingRate="1" />
-          </BitTag>
-          <BitTag Guid="0be21fab-943d-4eb4-964e-c162e5dcce42" Name="xMarcheManuEclairage" DataType="0" IsShared="0" IsLogged="0" Declaration="0" OverrideBaseProps="1" Dummy="0" Object="0">
-            <LimitBit Guid="d30bed06-1c3b-45bb-afc2-a5410ff6ffb6" OpenLimit="1" Signed="1" PresetVal="0">
-              <LimitSettingIntegral Guid="64366cd5-042c-4e2e-a034-1fbf3f6e60df" Type="0" Id="0" Value="0" />
-              <LimitSettingIntegral Guid="42db9fdc-acf7-467a-8350-8857086c384d" Type="0" Id="1" Value="0" />
-              <LimitSettingIntegral Guid="96e2b292-644f-4335-b469-58f9ff4e1310" Type="0" Id="2" Value="1" />
-              <LimitSettingIntegral Guid="5eba6713-545d-448a-b82e-6105d3c8dcfe" Type="0" Id="3" Value="1" />
-            </LimitBit>
-            <TagAddress Guid="5274cffb-810c-4f32-a9e6-7970ffb7be26" IsActive="1" Syntax="&lt;prog&gt;%s.&lt;tag&gt;%s" Param1="" Param2="GVLvisu" Param3="" Param4="xMarcheManuEclairage" Param5="" UseStdName="1" UseStdArrayIndex="0" ReadOnDemand="1" ReadAtStartup="1" WriteOnDemand="1" Polling="1" PollingRate="1" />
           </BitTag>
           <TagAddress Guid="11460645-9a0d-4667-8aa2-20defac4773e" IsActive="0" Syntax="&lt;prog&gt;%s.&lt;struct&gt;%s" Param1="" Param2="" Param3="" Param4="" Param5="" UseStdName="0" UseStdArrayIndex="0" ReadOnDemand="1" ReadAtStartup="1" WriteOnDemand="1" Polling="1" PollingRate="0" />
         </StructTag>
