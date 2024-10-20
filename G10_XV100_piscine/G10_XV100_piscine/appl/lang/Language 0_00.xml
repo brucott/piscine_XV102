@@ -27,9 +27,12 @@
 			<s ID="13"><![CDATA[AIR]]></s>
 			<s ID="14"><![CDATA[Eclairage]]></s>
 			<s ID="15"><![CDATA[Arret pompe manuel]]></s>
-			<s ID="16"><![CDATA[Demarrage pompe]]></s>
-			<s ID="17"><![CDATA[Arret pompe]]></s>
+			<s ID="16"><![CDATA[Start pompe]]></s>
+			<s ID="17"><![CDATA[Stop pompe]]></s>
 			<s ID="18"><![CDATA[: 00]]></s>
+			<s ID="19"><![CDATA[Manu]]></s>
+			<s ID="20"><![CDATA[Mode manuel]]></s>
+			<s ID="21"><![CDATA[Stop application]]></s>
 			<s ID="-10"><![CDATA[Delete User Account]]></s>
 			<s ID="-9"><![CDATA[Create User Account]]></s>
 			<s ID="-8"><![CDATA[Change group of user]]></s>
