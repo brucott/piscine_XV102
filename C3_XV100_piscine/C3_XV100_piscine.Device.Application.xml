@@ -2,7 +2,7 @@
 <Symbolconfiguration xmlns="http://www.3s-software.com/schemas/Symbolconfiguration.xsd">
   <Header>
     <Version>3.5.14.0</Version>
-    <SymbolConfigObject version="4.4.0.0" runtimeid="3.5.19.30" libversion="4.4.0.0" compiler="3.5.19.30" lmm="3.5.19.30" profile="XSOFT-CODESYS V3.5.19+" settings="LayoutCalculator=OptimizedClientSideLayoutCalculator" />
+    <SymbolConfigObject version="4.4.0.0" runtimeid="3.5.19.30" libversion="4.4.0.0" compiler="3.5.19.70" lmm="3.5.19.70" profile="XSOFT-CODESYS V3.5.19 BF1+" settings="LayoutCalculator=OptimizedClientSideLayoutCalculator" />
     <ProjectInfo name="C3_XV100_piscine" devicename="Device" appname="Application" />
   </Header>
   <TypeList>
